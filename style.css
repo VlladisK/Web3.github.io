@@ -1,28 +1,28 @@
 body { 
-    :: center;
-    background-color: rgb (157,113,19  );
-    color: rgb (46,46,46  );
+    text-align: center;
+    background-color: rgb(157, 113, 19);
+    color: rgb(46, 46, 46);
 }
 
 header {
-    #: :ffffff;
-    130 : :px; 
-    130 : :px; 
-    background-color: rgb (63,0,141  );
+    color: #ffffff;
+    height: 130px; 
+    margin-bottom: 130px; 
+    background-color: rgb(63, 0, 141);
     background-image: url(img/lofi.gif);
-    :: top;
-    100% :%;
-    3 : :px solid #ffffff;
+    background-position: top;
+    background-size: 100%;
+    outline: 3px solid #ffffff;
    }
  .header_t {
-    :: center;
+    text-align: center;
  }
-   # # {
-    135 : :px;
-    130 : :px;
-    :: left;
-    10 : :px;;
- background: url(lofi.gif);
+   #logo {
+    width: 135px;
+    height: 130px;
+    float: left;
+    margin-right: 10px;;
+    background: url(lofi.gif);
    }
 
    a {
@@ -97,4 +97,3 @@ footer {
 	height: 70px;
     border: 2px solid rgb(255, 255, 255);
 }
- 
